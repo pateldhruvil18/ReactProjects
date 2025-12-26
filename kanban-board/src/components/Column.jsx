@@ -70,7 +70,7 @@ const Column = ({ title, columnKey }) => {
       )}
 
       <div
-        className="space-y-3 min-h-[50px]"
+        className="space-y-3 min-h-12.5"
         onDragOver={(e) => e.preventDefault()}
         onDrop={(e) => {
           const data = JSON.parse(e.dataTransfer.getData("text/plain"));
